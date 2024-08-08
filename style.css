@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.mainWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;    
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 625px;
+    border: 2px black solid;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px #ff0000);
+}
+
+.mainScreen{
+    height: 120px;
+    border-bottom: 2px black solid;
+    display: flex;
+    justify-content: end;
+    align-items:end;
+}
+
+.mainScreen h1{
+    font-size: 50px;
+}
+
+buttons-container{
+    display: grid;
+}
+
+button{
+    color: black;
+    background-color: red;
+    height: 120px;
+    width: 120px;
+    margin: 1px;
+    border-radius: 100px;
+}
+
+.number{
+    background-color: orange;
+}
+
+#clearButton{
+    color: black;
+    background-color: white;
+}
